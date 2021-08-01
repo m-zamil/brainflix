@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrainFlix - Diving Deeper</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!--------------------------------------
+                    Navbar 
+    ---------------------------------------->
+    <div class="navbar">
+      <div class="container">
+        <ul class="nav">
+          <!-- Logo -->
+          <li class="logo">
+            <a href="#"
+              ><img
+                src="./assets/images/brainflix-logo.svg"
+                alt="Brain Flix Logo"
+            /></a>
+          </li>
+          <!-- Logo End-->
+          <!-- Searach Form -->
+          <li class="search-input">
+            <span class="input-box"
+              ><input
+                type="search"
+                id="site-search"
+                name="q"
+                aria-label="Search through site content"
+                placeholder="Search"
+            /></span>
+          </li>
+          <!-- Search Form End-->
+          <div class="flex">
+            <!-- Upload Button -->
+            <li class="upload-btn">
+              <a href="#"><span class="plus"></span> UPLOAD</a>
+            </li>
+            <!-- Upload Button End-->
+            <!-- Avatar-->
+            <li class="avatar"><a class="avatar-img" href="#"></a></li>
+            <!-- Avatar End -->
+          </div>
+        </ul>
+      </div>
+    </div>
+    <!-- Navbar end-->
+
+    <!--------------------------------------
+                    Video Section 
+    ---------------------------------------->
+    <div class="video-section">
+      <div class="container">
+        <video controls>
+          <source
+            src="./assets/Video/BrainStation-Sample-Video.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support HTML video.
+        </video>
+      </div>
+    </div>
+    <!--------------------------------------
+                    Video Info Section 
+    ---------------------------------------->
+    <div class="video_info--container">
+      <div class="container">
+        <div class="column">
+          <!--------------------------------------
+                    Video Info Left 
+          ---------------------------------------->
+          <div class="primary">
+            <div class="video__info--wrapper">
+              <div class="video__info--content">
+                <!-- Video Title-->
+                <div class="video__info--title">
+                  <h1>BMX Rampage: 2018 Highlights</h1>
+                </div>
+                <!-- Video meta data-->
+                <div class="video__info--subtitle">
+                  <div class="video__info--left">
+                    <div>
+                      <span class="author">By Red Cow </span>&nbsp;&nbsp;&nbsp;
+                      <span class="date"> 07/28/2021</span>
+                    </div>
+                  </div>
+                  <div class="video__info--right">
+                    <div>
+                      <span class="vcenter"
+                        ><img
+                          src="./assets/Icons/Icon-eye.svg"
+                          alt=""
+                        />&nbsp;&nbsp; 1,001,023</span
+                      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="vcenter"
+                        ><img
+                          src="./assets/Icons/Icon-love.svg"
+                          alt=""
+                        />&nbsp;&nbsp; 110,985</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <!-- Video Description-->
+                <div class="video__info--description">
+                  <p>
+                    On a gusty day in Southern Utah, a group of 25 daring
+                    mountain bikers blew the doors off what is possible on two
+                    wheels, unleashing some of the biggest moments the sport has
+                    ever seen. While mother nature only allowed for one full run
+                    before the conditions made it impossible to ride, that was
+                    all that was needed for event veteran Kyle Strait, who won
+                    the event for the second time -- eight years after his first
+                    Red Cow Rampage title
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Comment Section-->
+            <div class="comment-section">
+              <div class="comment-count">
+                <p>4 Comments</p>
+              </div>
+              <!-- Comment Form-->
+              <div class="comment__form-wrapper">
+                <div class="avatar"><span class="avatar-img"> </span></div>
+                <form class="comment__form--form">
+                  <label for="comment" class="comment-label"
+                    >JOIN THE CONVERSATION</label
+                  >
+                  <div class="flex">
+                    <input
+                      type="text"
+                      id="comment"
+                      placeholder="Write comment here"
+                    />
+                    <button>COMMENT</button>
+                  </div>
+                </form>
+              </div>
+              <hr />
+              <!------------------ All Comments------------------------>
+              <!-- Comment -->
+              <div class="comment">
+                <div class="comment-avatar">
+                  <img src="./assets/images/avatar.jpg" alt="Avatar" />
+                </div>
+                <div class="comment-content">
+                  <div class="flex">
+                    <div class="comment-author">BrainStation Man</div>
+                    <div class="comment-date">12/19/2018</div>
+                  </div>
+                  <div class="comment-text">
+                    <p>That was easily the most spectacular BMX moment ever.</p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Comment -->
+              <div class="comment">
+                <div class="comment-avatar"></div>
+                <div class="comment-content">
+                  <div class="flex">
+                    <div class="comment-author">Micheal Lyons</div>
+                    <div class="comment-date">12/18/2018</div>
+                  </div>
+                  <div class="comment-text">
+                    <p>
+                      They BLEW the ROOF off at their last show, once everyone
+                      started figuring out they were going. This is still simply
+                      the greatest opening of a concert I have EVER witnessed.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Comment -->
+              <div class="comment">
+                <div class="comment-avatar"></div>
+                <div class="comment-content">
+                  <div class="flex">
+                    <div class="comment-author">Gary Wong</div>
+                    <div class="comment-date">12/12/2018</div>
+                  </div>
+                  <div class="comment-text">
+                    <p>
+                      Every time I see him shred I feel so motivated to get off
+                      my couch and hop on my board. He’s so talented! I wish I
+                      can ride like him one day so I can really enjoy myself!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Comment -->
+              <div class="comment">
+                <div class="comment-avatar"></div>
+                <div class="comment-content">
+                  <div class="flex">
+                    <div class="comment-author">Theodore Duncan</div>
+                    <div class="comment-date">11/15/2018</div>
+                  </div>
+                  <div class="comment-text">
+                    <p>
+                      How can someone be so good!!! You can tell he lives for
+                      this and loves to do it every day. Everytime I see him I
+                      feel instantly happy! He’s definitely my favorite ever!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div class="vline"></div>
+          <!--------------------------------------
+                    Video Info Right 
+            ---------------------------------------->
+          <div class="secondary">
+            <h3 class="secondary-title">NEXT VIDEO</h3>
+            <!-- Next Videos-->
+            <div class="video-items">
+              <!-- Video-->
+              <div class="video-item">
+                <div class="thumbnail">
+                  <img src="./assets/images/cycle.jpg" alt="" />
+                </div>
+                <div class="video-details">
+                  <h4 class="video-title">
+                    Become A Travel Pro In One Easy Lesson
+                  </h4>
+                  <p class="author-name">Todd Welch</p>
+                </div>
+              </div>
+
+              <!-- Video-->
+              <div class="video-item">
+                <div class="thumbnail">
+                  <img src="./assets/images/beach.jpg" alt="" />
+                </div>
+                <div class="video-details">
+                  <h4 class="video-title">
+                    Les Houches The Hidden Gem Of The Chamonix
+                  </h4>
+                  <p class="author-name">Cornelia Blair</p>
+                </div>
+              </div>
+
+              <!-- Video-->
+              <div class="video-item">
+                <div class="thumbnail">
+                  <img src="./assets/images/fruits.jpg" alt="" />
+                </div>
+                <div class="video-details">
+                  <h4 class="video-title">
+                    Travel Health Useful Medical Information For
+                  </h4>
+                  <p class="author-name">Glen Harper</p>
+                </div>
+              </div>
+
+              <!-- Video-->
+              <div class="video-item">
+                <div class="thumbnail">
+                  <img src="./assets/images/airline.jpg" alt="" />
+                </div>
+                <div class="video-details">
+                  <h4 class="video-title">
+                    Cheap Airline Tickets Great Ways To Save
+                  </h4>
+                  <p class="author-name">Emily Harper</p>
+                </div>
+              </div>
+
+              <!-- Video-->
+              <div class="video-item">
+                <div class="thumbnail">
+                  <img src="./assets/images/seaview.jpg" alt="" />
+                </div>
+                <div class="video-details">
+                  <h4 class="video-title">
+                    Take A Romantic Break In A Boutique Hotel
+                  </h4>
+                  <p class="author-name">Ethan Owen</p>
+                </div>
+              </div>
+
+              <!-- Video-->
+              <div class="video-item">
+                <div class="thumbnail">
+                  <img src="./assets/images/sofa.jpg" alt="" />
+                </div>
+                <div class="video-details">
+                  <h4 class="video-title">Choose The Perfect Accommodations</h4>
+                  <p class="author-name">Lydia Perez</p>
+                </div>
+              </div>
+
+              <!-- Video-->
+              <div class="video-item">
+                <div class="thumbnail">
+                  <img src="./assets/images/ship.jpg" alt="" />
+                </div>
+                <div class="video-details">
+                  <h4 class="video-title">Cruising Destination Ideas</h4>
+                  <p class="author-name">Timothy Austin</p>
+                </div>
+              </div>
+
+              <!-- Video-->
+              <div class="video-item">
+                <div class="thumbnail">
+                  <img src="./assets/images/train.jpg" alt="" />
+                </div>
+                <div class="video-details">
+                  <h4 class="video-title">Train Travel On Track For Safety</h4>
+                  <p class="author-name">Scotty Cranmer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
